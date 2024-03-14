@@ -33,7 +33,7 @@ for (var i = 0; i < arr.length; i++) {
     console.log(arr[i]);
     var newli = document.createElement('li')
     newli.classList.add('list__item')
-    newli.innerHTML = `git
+    newli.innerHTML = `
                 <img src=${arr[i].img} alt="">
                 <h2>${arr[i].name}</h2>
                 <p>${arr[i].yil}</p>
