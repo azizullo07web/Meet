@@ -31,10 +31,10 @@ var arr = [
 var ellist = document.querySelector('.list')
 for (var i = 0; i < arr.length; i++) {
     console.log(arr[i]);
-    var newli = documant.createElement('li')
-    newli.classlist.add('list__item')
-    newli.innerHTML = `
-                <img src=${item.img} alt="">
+    var newli = document.createElement('li')
+    newli.classList.add('list__item')
+    newli.innerHTML = `git
+                <img src=${arr[i].img} alt="">
                 <h2>${arr[i].name}</h2>
                 <p>${arr[i].yil}</p>
                 <p>${arr[i].davlat}</p>
